@@ -1,0 +1,63 @@
+name: wandastock
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+
+  flutter_localizations:
+    sdk: flutter
+
+  cloud_firestore: ^4.5.0
+  connectivity_plus: ^5.0.2
+  firebase_core: ^2.14.0
+  firebase_auth: ^4.17.8
+  pdf: ^3.10.4
+  printing: ^5.11.0
+
+  cupertino_icons: ^1.0.8
+  intl: ^0.20.2
+  flutter_native_splash: ^2.4.6
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  url_launcher: ^6.1.10
+  flutter_launcher_icons: ^0.13.1
+flutter:
+  uses-material-design: true
+
+  # Si tu veux générer les fichiers de localisation (flutter_gen) : 
+  # La clé `generate: true` doit être sous la racine `flutter`, correctement indentée :
+  generate: true
+
+  # Si tu as des assets, les déclarer ici :
+  assets:
+    - assets/logo.png
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/logo.png
+  android: true
+  ios: true
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"

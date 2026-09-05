@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "962957337275",
+    "project_id": "wandastockapp",
+    "storage_bucket": "wandastockapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962957337275:android:2bef221f3e64014bf53f9e",
+        "android_client_info": {
+          "package_name": "com.example.wandastock"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH4yHakh8nS993JVVhw7JXLVn3SlRAKyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
